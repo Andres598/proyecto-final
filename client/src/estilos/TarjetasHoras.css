@@ -1,0 +1,67 @@
+.tarjetas-horas {
+    height: 80vh;
+    padding: 20px;
+}
+
+.tarjetas-horas h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #8d1212;
+}
+
+.tarjetas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #00000073;
+    height: 50vh;
+}
+.tarjeta h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.tarjeta p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.wallet-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wallet-container > div {
+    width: 75% !important; /* Forzar el ancho al 75% */
+}
+
+.wallet-container iframe {
+    width: 100% !important; /* Asegurarse de que el iframe ocupe todo el ancho del contenedor */
+    max-width: 100% !important; /* Evitar que el iframe sea más grande que el contenedor */
+}
+.enlace {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8d1212;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.enlace:hover {
+    background-color: #510b0b;
+    cursor: pointer;
+}
